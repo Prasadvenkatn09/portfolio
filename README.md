@@ -9,7 +9,8 @@ A passionate Software Developer with over 6 years of experience specializing in 
 - Cloud & DevOps: AWS (EC2, RDS, S3, Lambda, etc.), Azure (AKS, Blob Storage, SQL Database), Docker, Kubernetes, Jenkins, Git, Maven
 - Version Control: Git, GitHub, Bitbucket, JIRA
 - Testing & Automation: JUnit, Selenium, Postman, Mockito
-- Performance & Monitoring: Splunk, Dynatrace, ELK Stack, Zabbix, Amazon CloudWatch
+- Performance & Monitoring: Splunk, Dynatrace,Amazon CloudWatch
+  
 ## Work Experience
 **Software Developer@ NetApp, Raleigh, NC (Nov 2023 – Present)** 
 - Developed system-level software, focusing on microservices-based API design, user interfaces, and back-end services using     Spring Boot and Angular 14.
