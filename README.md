@@ -11,7 +11,6 @@ A passionate Software Developer with over 6 years of experience specializing in 
 - Testing & Automation: JUnit, Selenium, Postman, Mockito
 - Performance & Monitoring: Splunk, Dynatrace, ELK Stack, Zabbix, Amazon CloudWatch
 ## Work Experience
-
 **Software Developer@ NetApp, Raleigh, NC (Nov 2023 – Present)** 
 - Developed system-level software, focusing on microservices-based API design, user interfaces, and back-end services using     Spring Boot and Angular 14.
 - Integrated Apache Kafka for real-time message streaming, improving communication between distributed services.
