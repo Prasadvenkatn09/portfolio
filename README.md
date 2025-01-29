@@ -39,4 +39,4 @@ A passionate Software Developer with over 6 years of experience specializing in 
 - Utilized Jenkins for CI/CD and Docker for containerization of applications
   
 ## Education
-- Masters of Science in Computers | Wright State University | USA
+- Masters in Computer Science | Wright State University | USA
