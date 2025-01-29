@@ -1,3 +1,6 @@
 # portfolio
 Java Full Stack developer
-TECHNICAL SKILLS
+Technical Skills
+Work Experience
+Education
+
