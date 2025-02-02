@@ -4,52 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venkata Prasad Nusullapalli - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h3 {
+            color: #2c3e50;
+        }
+        hr {
+            border: 1px solid #ddd;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .skills-table, .career-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .skills-table td, .career-table td, .career-table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #fff;
+            background: #0073b1;
+            padding: 10px 15px;
+            margin-right: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .contact a.github { background: #333; }
+        .contact a.email { background: #c71610; }
+        .contact a.phone { background: #27ae60; }
+    </style>
 </head>
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="pic.jpg" alt="Venkata Prasad's Profile Picture" width="150"></td>
-            <td>
+    <div class="container">
+        <div class="profile">
+            <img src="Pic2.jpg" alt="Venkata Prasad">
+            <div>
                 <h1>Venkata Prasad Nusullapalli</h1>
-                <p><em>Software Developer | Frontend & Full-Stack Engineer</em></p>
-                <p>Experienced in designing and developing scalable web and mobile applications with expertise in full-stack development, cloud computing, and microservices architecture.</p>
-            </td>
-        </tr>
-    </table>
-    
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li><strong>Master of Science in Computer Science</strong> - Wright State University, USA</li>
-    </ul>
-    
-    <hr>
-    <h3>Experience</h3>
-    <ul>
-        <li><strong>NetApp (Nov 2023 – Present)</strong> - Software Developer</li>
-        <li><strong>Nextracker Inc (Sep 2022 – Oct 2023)</strong> - Software Developer</li>
-        <li><strong>Johnson Controls (Dec 2020 – Jul 2022)</strong> - Full Stack Java Developer</li>
-        <li><strong>Mindtree (Nov 2019 – Nov 2020)</strong> - Java Developer</li>
-        <li><strong>DXC Technology (Aug 2016 – Oct 2019)</strong> - Software Engineer</li>
-    </ul>
-    
-    <hr>
-    <h3>Skills</h3>
-    <ul>
-        <li>JavaScript (React, Next.js, Angular)</li>
-        <li>Backend (Java, Spring Boot, Node.js, Python, Django, Flask)</li>
-        <li>Databases (MySQL, MongoDB, Oracle, DB2, Cassandra)</li>
-        <li>Cloud Platforms (AWS, Azure)</li>
-        <li>DevOps (Jenkins, Docker, Kubernetes, CI/CD)</li>
-    </ul>
-    
-    <hr>
-    <h3>Contact</h3>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:prasadvenkatn09@gmail.com">prasadvenkatn09@gmail.com</a></li>
-        <li><strong>Phone:</strong> <a href="tel:+19842124031">+1 984-212-4031</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourlinkedin" target="_blank">linkedin.com/in/yourlinkedin</a></li>
-    </ul>
+                <p><em>Software Developer | Full Stack Engineer | Cloud Enthusiast</em></p>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <h3>Education</h3>
+        <ul>
+            <li>Master of Science in Computer Science - Wright State University, USA</li>
+            <li>Bachelor’s Degree in Computer Science</li>
+        </ul>
+        
+        <hr>
+        
+        <h3>Career</h3>
+        <table class="career-table">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Company</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023 - Present</td>
+                    <td>NetApp</td>
+                    <td>Software Developer</td>
+                </tr>
+                <tr>
+                    <td>2022 - 2023</td>
+                    <td>Nextracker</td>
+                    <td>Software Developer</td>
+                </tr>
+                <tr>
+                    <td>2020 - 2022</td>
+                    <td>Johnson Controls</td>
+                    <td>Full Stack Java Developer</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <hr>
+        
+        <h3>Skills</h3>
+        <table class="skills-table">
+            <tr>
+                <td>JavaScript (React, Angular, Next.js)</td>
+              
+            </tr>
+            <tr>
+                <td>Java, Spring Boot</td>
+                
+            </tr>
+            <tr>
+                <td>Node.js, Python (Django, Flask)</td>
+                
+            </tr>
+            <tr>
+                <td>Cloud (AWS, Azure)</td>
+                <td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>DevOps (Docker, Kubernetes, CI/CD)</td>
+                <td>★★★★☆</td>
+            </tr>
+        </table>
+        
+        <hr>
+        
+        <h3>Contact</h3>
+        <div class="contact">
+            <a href="https://github.com/prasadvenkatn" class="github" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/prasadvenkatn" target="_blank">LinkedIn</a>
+            <a href="mailto:prasadvenkatn09@gmail.com" class="email">Email</a>
+            <a href="tel:+19842124031" class="phone">Call</a>
+        </div>
+    </div>
 </body>
 </html>
