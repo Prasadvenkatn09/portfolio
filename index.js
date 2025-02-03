@@ -23,7 +23,7 @@ const Portfolio = () => {
       <hr className="w-full border-gray-600 mb-6" />
 
       <p className="mb-6 text-lg">
-        A results-driven software developer with over six years of experience in designing and developing high-performance web and mobile applications. 
+        A passionate software developer with over six years of experience in designing and developing high-performance web and mobile applications. 
         Specializing in full-stack development, cloud computing, and microservices architecture, I am dedicated to creating innovative solutions 
         that enhance user experience and optimize system performance. Skilled in modern technologies and best practices, I focus on building 
         scalable, secure, and efficient applications that drive business success.
